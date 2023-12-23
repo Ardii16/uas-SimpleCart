@@ -3,7 +3,6 @@ implement simple cart and promotion
 
 # Setup Guide
 
-
 ## Install, create and activate virtualenv
 https://medium.com/analytics-vidhya/virtual-environment-6ad5d9b6af59
 
@@ -51,6 +50,16 @@ to run the web app simply  use
 to access swagger use url `localhost:5000/apidocs`
 
 
+## Run test
+run test
+
+    pytest
+
+check test coverage
+
+    pytest --cov=myproj tests/
+
+
 ## Debt
 
  - Cart Update
@@ -58,3 +67,6 @@ to access swagger use url `localhost:5000/apidocs`
  - Unit test
  - Unit test coverage
  - CI setup 
+
+ ![Alt text](image.png)
+![Alt text](image-1.png)
